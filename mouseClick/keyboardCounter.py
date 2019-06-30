@@ -33,6 +33,7 @@ bc= 0
 nc= 0
 mc= 0
 spacec=0
+total = 0
 
 # keyboard letter assign
 q= 'q'
@@ -126,6 +127,7 @@ def on_press(key):
         global nc
         global mc
         global spacec
+        global total
 
         try:
                 # print('alphanumeric key {0} pressed'.format(
@@ -134,81 +136,133 @@ def on_press(key):
 
                 if key.char == q:
                         qc +=1
+                        total +=1
                         print('q counter is ', qc)
+                        print(total)
                 if key.char == w:
                         wc +=1
+                        total +=1
                         print('w counter is ', wc)
+                        print(total)
                 if key.char == e:
                         ec +=1
+                        total +=1
                         print('e counter is ', ec)
+                        print(total)
                 if key.char == r:
                         rc +=1
+                        total +=1
                         print('r counter is ', rc)
+                        print(total)
                 if key.char == t:
                         tc +=1
+                        total +=1
+                        print(total)
                         print('t counter is ', tc)
                 if key.char == y:
                         yc +=1
+                        total +=1
+                        print(total)
                         print('y counter is ', yc)
                 if key.char == u:
                         uc +=1
+                        total +=1
+                        print(total)
                         print('u counter is ', uc)
                 if key.char == i:
                         ic +=1
+                        total +=1
+                        print(total)
                         print('i counter is ', ic)
                 if key.char == o:
                         oc +=1
+                        total +=1
+                        print(total)
                         print('o counter is ', oc)
                 if key.char == p:
                         pc +=1
+                        total +=1
+                        print(total)
                         print('p counter is ', pc)
                 if key.char == a:
                         ac +=1
+                        total +=1
+                        print(total)
                         print('a counter is ', ac)
                 if key.char == s:
                         sc +=1
+                        total +=1
+                        print(total)
                         print('s counter is ', sc)
                 if key.char == d:
                         dc +=1
+                        total +=1
+                        print(total)
                         print('d counter is ', dc)
                 if key.char == f:
                         fc +=1
+                        total +=1
+                        print(total)
                         print('f counter is ', fc)
                 if key.char == g:
                         gc +=1
+                        total +=1
+                        print(total)
                         print('g counter is ', gc)
                 if key.char == h:
                         hc +=1
+                        total +=1
+                        print(total)
                         print('h counter is ', hc)
                 if key.char == j:
                         jc +=1
+                        total +=1
+                        print(total)
                         print('j counter is ', jc)
                 if key.char == k:
                         kc +=1
+                        total +=1
+                        print(total)
                         print('k counter is ', kc)
                 if key.char == l:
                         lc +=1
+                        total +=1
+                        print(total)
                         print('l counter is ', lc)
                 if key.char == z:
                         zc +=1
+                        total +=1
+                        print(total)
                         print('z counter is ', zc)
                 if key.char == x:
                         xc +=1
+                        total +=1
+                        print(total)
                         print('x counter is ', xc)
                 if key.char == c:
                         cc +=1
+                        total +=1
+                        print(total)
                         print('c counter is ', cc)
                 if key.char == v:
                         vc +=1
+                        total +=1
+                        print(total)
                         print('v counter is ', vc)
                 if key.char == b:
                         bc += 1
+                        total +=1
+                        print(total)
                         print('b counter is ', bc)
                 if key.char == n:
                         nc +=1
+                        total +=1
+                        print(total)
                         print('n counter is ', nc)
                 if key.char == m:
                         mc +=1
+                        total +=1
+                        print(total)
                         print('m counter is ', mc)
         except AttributeError:
                 if Key.space:
