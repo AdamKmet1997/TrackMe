@@ -1,4 +1,5 @@
 from pynput.mouse import Listener
+from pynput.keyboard import Key, Listener, KeyCode
 import logging
 
 logging.basicConfig(filename=("mouse_log1.txt"), level=logging.DEBUG, format='%(asctime)s: %(message)s')
@@ -16,8 +17,18 @@ def on_click(x, y, button, pressed):
 
     if pressed:
         counter += 1
-        # print(counter)
+        # print(counter)faaa
         logging.info(counter)
 
-with Listener( on_click=on_click) as listener:
+def on_press(key):
+        a = "a"
+        if key.char == 'a':
+                print('a was pressed ')
+        else:
+                print('not a ')
+
+#     print('{0} pressed'.format(
+#         key))
+        
+with Listener( on_click=on_click, on_press=on_press) as listener:
     listener.join()
