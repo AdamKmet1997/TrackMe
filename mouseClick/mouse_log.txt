@@ -1,0 +1,144 @@
+2019-06-30 19:28:49,327: Mouse clicked at (-523, 510) with Button.left
+2019-06-30 19:28:51,955: Mouse clicked at (909, 46) with Button.left
+2019-06-30 19:28:53,861: Mouse clicked at (1439, 894) with Button.left
+2019-06-30 19:28:56,288: Mouse clicked at (-1207, 956) with Button.left
+2019-06-30 19:29:00,559: Mouse clicked at (-1333, 256) with Button.left
+2019-06-30 19:29:02,779: Mouse clicked at (813, 570) with Button.left
+2019-06-30 19:29:03,739: Mouse clicked at (-289, 463) with Button.left
+2019-06-30 19:29:04,269: Mouse clicked at (-701, 540) with Button.left
+2019-06-30 19:29:04,941: Mouse clicked at (-806, 447) with Button.left
+2019-06-30 19:29:05,628: Mouse clicked at (-348, 467) with Button.left
+2019-06-30 19:29:08,867: Mouse clicked at (617, 285) with Button.left
+2019-06-30 19:29:09,571: Mouse clicked at (-588, 488) with Button.left
+2019-06-30 19:29:11,257: Mouse clicked at (1055, 466) with Button.left
+2019-06-30 19:29:11,607: Mouse clicked at (825, 581) with Button.left
+2019-06-30 19:29:12,219: Mouse clicked at (1139, 267) with Button.left
+2019-06-30 19:29:13,068: Mouse clicked at (953, 553) with Button.left
+2019-06-30 19:29:13,288: Mouse clicked at (656, 653) with Button.left
+2019-06-30 19:29:13,801: Mouse clicked at (-412, 474) with Button.left
+2019-06-30 19:29:15,606: Mouse clicked at (1099, 473) with Button.left
+2019-06-30 19:29:16,181: Mouse clicked at (-353, 593) with Button.left
+2019-06-30 19:29:18,038: Mouse clicked at (-473, 654) with Button.left
+2019-06-30 19:29:18,918: Mouse clicked at (-624, 433) with Button.left
+2019-06-30 19:29:20,176: Mouse clicked at (819, 477) with Button.left
+2019-06-30 19:29:20,341: Mouse clicked at (819, 477) with Button.left
+2019-06-30 19:29:20,534: Mouse clicked at (819, 477) with Button.left
+2019-06-30 19:29:20,723: Mouse clicked at (819, 477) with Button.left
+2019-06-30 19:29:20,983: Mouse clicked at (819, 477) with Button.left
+2019-06-30 19:29:21,586: Mouse clicked at (-459, 548) with Button.left
+2019-06-30 19:29:25,666: Mouse clicked at (-469, 583) with Button.left
+2019-06-30 19:29:26,712: Mouse clicked at (821, 532) with Button.left
+2019-06-30 19:29:27,300: Mouse clicked at (-350, 651) with Button.left
+2019-06-30 19:29:35,200: Mouse clicked at (-1107, 116) with Button.left
+2019-06-30 19:29:37,508: Mouse clicked at (-433, 326) with Button.left
+2019-06-30 19:30:35,215: Mouse clicked at (-509, 363) with Button.left
+2019-06-30 19:30:35,775: Mouse clicked at (-671, 413) with Button.left
+2019-06-30 19:30:48,317: Mouse clicked at (-625, 367) with Button.left
+2019-06-30 19:31:04,176: Mouse clicked at (-1247, 944) with Button.left
+2019-06-30 19:31:05,730: Mouse clicked at (951, 0) with Button.left
+2019-06-30 19:31:06,146: Mouse clicked at (923, 46) with Button.left
+2019-06-30 19:31:23,922: Mouse clicked at (350, 610) with Button.left
+2019-06-30 19:31:29,882: Mouse clicked at (-1016, 240) with Button.left
+2019-06-30 19:31:54,497: Mouse clicked at (-861, 372) with Button.left
+2019-06-30 19:32:03,517: Mouse clicked at (-1008, 428) with Button.left
+2019-06-30 19:32:03,629: Mouse clicked at (-1008, 428) with Button.left
+2019-06-30 19:32:14,173: Mouse clicked at (1150, 0) with Button.left
+2019-06-30 19:32:14,591: Mouse clicked at (1088, 42) with Button.left
+2019-06-30 19:32:27,837: Mouse clicked at (317, 354) with Button.left
+2019-06-30 19:32:46,552: Mouse clicked at (-973, 428) with Button.left
+2019-06-30 19:32:58,602: Mouse clicked at (-954, 426) with Button.left
+2019-06-30 19:33:03,356: Mouse clicked at (-944, 453) with Button.left
+2019-06-30 19:33:20,319: Mouse clicked at (-1157, 937) with Button.left
+2019-06-30 19:33:21,371: Mouse clicked at (718, 365) with Button.left
+2019-06-30 19:33:24,688: Mouse clicked at (968, 41) with Button.left
+2019-06-30 19:36:34,187:  clicked at (-950, 108) with Button.left
+2019-06-30 19:36:35,132:  clicked at (-541, 446) with Button.left
+2019-06-30 19:36:37,272:  clicked at (-973, 447) with Button.left
+2019-06-30 19:36:37,687:  clicked at (-612, 456) with Button.left
+2019-06-30 19:36:39,210:  clicked at (256, 548) with Button.left
+2019-06-30 19:36:39,737:  clicked at (-748, 323) with Button.left
+2019-06-30 19:36:42,896:  clicked at (-1127, 103) with Button.left
+2019-06-30 19:36:50,014:  clicked at (-493, 335) with Button.left
+2019-06-30 19:36:59,967:  clicked at (-528, 405) with Button.left
+2019-06-30 19:37:11,413:  clicked at (-824, 478) with Button.right
+2019-06-30 19:37:12,743:  clicked at (-781, 774) with Button.left
+2019-06-30 19:37:16,881:  clicked at (-84, 571) with Button.left
+2019-06-30 19:54:40,415: Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "C:\Users\a6350\AppData\Local\Programs\Python\Python37\lib\site-packages\pynput\_util\win32.py", line 375, in _handler
+    converted = self._convert(code, msg, lpdata)
+  File "C:\Users\a6350\AppData\Local\Programs\Python\Python37\lib\site-packages\pynput\_util\win32.py", line 390, in _convert
+    raise NotImplementedError()
+NotImplementedError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\a6350\AppData\Local\Programs\Python\Python37\lib\site-packages\pynput\_util\__init__.py", line 157, in inner
+    return f(self, *args, **kwargs)
+  File "C:\Users\a6350\AppData\Local\Programs\Python\Python37\lib\site-packages\pynput\_util\win32.py", line 379, in _handler
+    self._handle(code, msg, lpdata)
+  File "C:\Users\a6350\AppData\Local\Programs\Python\Python37\lib\site-packages\pynput\mouse\_win32.py", line 190, in _handle
+    self.on_click(data.pt.x, data.pt.y, button, pressed)
+  File "C:\Users\a6350\AppData\Local\Programs\Python\Python37\lib\site-packages\pynput\_util\__init__.py", line 78, in inner
+    if f(*args) is False:
+  File "c:/Users/a6350/AppData/Local/Programs/Python/Python37/mouseClick/mouseCounter.py", line 17, in on_click
+    print(counter =counter + 1)
+TypeError: 'counter' is an invalid keyword argument for print()
+2019-06-30 19:54:49,019: Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "C:\Users\a6350\AppData\Local\Programs\Python\Python37\lib\site-packages\pynput\_util\win32.py", line 375, in _handler
+    converted = self._convert(code, msg, lpdata)
+  File "C:\Users\a6350\AppData\Local\Programs\Python\Python37\lib\site-packages\pynput\_util\win32.py", line 390, in _convert
+    raise NotImplementedError()
+NotImplementedError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\a6350\AppData\Local\Programs\Python\Python37\lib\site-packages\pynput\_util\__init__.py", line 157, in inner
+    return f(self, *args, **kwargs)
+  File "C:\Users\a6350\AppData\Local\Programs\Python\Python37\lib\site-packages\pynput\_util\win32.py", line 379, in _handler
+    self._handle(code, msg, lpdata)
+  File "C:\Users\a6350\AppData\Local\Programs\Python\Python37\lib\site-packages\pynput\mouse\_win32.py", line 190, in _handle
+    self.on_click(data.pt.x, data.pt.y, button, pressed)
+  File "C:\Users\a6350\AppData\Local\Programs\Python\Python37\lib\site-packages\pynput\_util\__init__.py", line 78, in inner
+    if f(*args) is False:
+  File "c:/Users/a6350/AppData/Local/Programs/Python/Python37/mouseClick/mouseCounter.py", line 17, in on_click
+    print(counter =counter + 1)
+TypeError: 'counter' is an invalid keyword argument for print()
+2019-06-30 20:24:20,673: 1
+2019-06-30 20:24:21,329: 2
+2019-06-30 20:24:23,068: 3
+2019-06-30 20:24:27,065: 4
+2019-06-30 20:24:28,308: 5
+2019-06-30 20:24:28,885: 6
+2019-06-30 20:24:32,009: 7
+2019-06-30 20:24:36,351: 8
+2019-06-30 20:24:36,543: 9
+2019-06-30 20:24:36,751: 10
+2019-06-30 20:24:37,089: 11
+2019-06-30 20:24:37,650: 12
+2019-06-30 20:24:37,937: 13
+2019-06-30 20:24:38,209: 14
+2019-06-30 20:24:38,500: 15
+2019-06-30 20:24:38,787: 16
+2019-06-30 20:24:39,076: 17
+2019-06-30 20:24:40,253: 18
+2019-06-30 20:24:50,497: 19
+2019-06-30 20:25:03,585: 20
+2019-06-30 20:25:06,185: 21
+2019-06-30 20:25:07,687: 22
+2019-06-30 20:25:07,835: 23
+2019-06-30 20:25:08,070: 24
+2019-06-30 20:25:08,443: 25
+2019-06-30 20:25:10,072: 26
+2019-06-30 20:25:10,216: 27
+2019-06-30 20:25:10,623: 28
+2019-06-30 20:25:13,675: 29
+2019-06-30 20:25:15,564: 30
+2019-06-30 20:25:17,705: 31
+2019-06-30 20:25:22,111: 32
+2019-06-30 20:25:24,481: 33
+2019-06-30 20:25:27,702: 34
+2019-06-30 20:25:29,706: 35
