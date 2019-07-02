@@ -2,22 +2,7 @@ from matplotlib.ticker import FuncFormatter
 import matplotlib.pyplot as plt
 import numpy as np
 
-# x = np.arange(16)
-# money = [1.5e5, 2.5e6, 5.5e6, 2.0e7,12.5,12.8,1.5e5, 2.5e6, 5.5e6, 2.0e7,12.5,12.8,1.5e5, 2.5e6, 5.5e6, 2.0e7]
 
-
-# def millions(x, pos):
-#     'The two args are the value and tick position'
-#     return '$%1.1fM' % (x * 1e-6)
-
-
-# formatter = FuncFormatter(millions)
-
-# fig, ax = plt.subplots()
-# ax.yaxis.set_major_formatter(formatter)
-# plt.bar(x, money)
-# plt.xticks(x, ('q', 'w', 'e', 'r','t', 'y', 'u', 'i','o', 'p', 'a', 's','d', 'f', 'g', 'h'))
-# plt.show()
 
 fh = open('key_log6.txt')
 # list =[]
@@ -77,19 +62,21 @@ m = line[25].split("=",1)[1]
 # print(n)
 # print(m)
 
+x = np.arange(20)
+# money = [q,w,e,r,t,y,u,i,o,p,a,s,d,f,g,h,j,k,l,z,x,c,v,b,n,m]
+money = [m,w,e,r,t,y,u,i,o,p,a,s,d,f,g,h,j,b,l,c]
 
 
-# print(line[0])
-# for line in fh:
-#     # in python 2
-#     # print line
-#     # in python 3
-#     # print(line)
-#     num = line.split("=",1)[1]
-#     q = num[0]
-#     print(q)
-#     # print (line.split("=",1)[1])
-#     # print(line[3])
-#     # list.append(line)
-#     # print(list)
-# fh.close()
+def millions(x, pos):
+    'The two args are the value and tick position'
+    return '%1f' % (x * 5)
+
+
+formatter = FuncFormatter(millions)
+
+fig, ax = plt.subplots()
+ax.yaxis.set_major_formatter(formatter)
+plt.bar(x, money)
+# plt.xticks(x, ('q', 'w', 'e', 'r','t', 'y', 'u', 'i','o', 'p', 'a', 's','d', 'f', 'g', 'h','j', 'k', 'l', 'z','x', 'c', 'v', 'b','n', 'm'))
+plt.xticks(x,('m', 'w', 'e', 'r','t', 'y', 'u', 'i','o', 'p', 'a', 's','d', 'f', 'g', 'h','j', 'b', 'l', 'c'))
+plt.show()
