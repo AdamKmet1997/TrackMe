@@ -1,7 +1,9 @@
 from pynput.keyboard import Key, Listener, KeyCode
 import logging
 
-logging.basicConfig(filename=("mouse_log9.txt"), level=logging.DEBUG, format='%(asctime)s: %(message)s')
+
+
+logging.basicConfig(filename=("key_log5.txt"), level=logging.DEBUG, format=' %(message)s')
 
 
 
@@ -32,7 +34,7 @@ vc= 0
 bc= 0
 nc= 0
 mc= 0
-spacec=0
+spacec=[]
 total = 0
 
 # keyboard letter assign
@@ -127,7 +129,7 @@ def on_press(key):
         global nc
         global mc
         global spacec
-        global total
+        global total 
 
         try:
                 # print('alphanumeric key {0} pressed'.format(
@@ -137,140 +139,146 @@ def on_press(key):
                 if key.char == q:
                         qc +=1
                         total +=1
-                        logging.info('q counter is {0}'.format(qc))
-                        logging.info(total)
+                       # logging.info('q={0}'.format(qc))
                 if key.char == w:
                         wc +=1
                         total +=1
-                        logging.info('w counter is {0}'.format(wc))
-                        logging.info(total)
+                        #logging.info('w={0}'.format(wc))
                 if key.char == e:
                         ec +=1
                         total +=1
-                        logging.info('e counter is {0}'.format(ec))
-                        logging.info(total)
+                       # logging.info('e={0}'.format(ec))
                 if key.char == r:
                         rc +=1
                         total +=1
-                        logging.info('r counter is {0}'.format(rc))
-                        logging.info(total)
+                        #logging.info('r={0}'.format(rc))
                 if key.char == t:
                         tc +=1
                         total +=1
-                        logging.info(total)
-                        logging.info('t counter is {0}'.format(tc))
+                      #  logging.info('t={0}'.format(tc))
                 if key.char == y:
                         yc +=1
                         total +=1
-                        logging.info(total)
-                        logging.info('y counter is {0}'.format(yc))
+                      #  logging.info('y={0}'.format(yc))
                 if key.char == u:
                         uc +=1
                         total +=1
-                        logging.info(total)
-                        logging.info('u counter is {0}'.format(uc))
+                        #logging.info('u={0}'.format(uc))
                 if key.char == i:
                         ic +=1
                         total +=1
-                        logging.info(total)
-                        logging.info('i counter is {0}'.format(ic))
+                        #logging.info('i={0}'.format(ic))
                 if key.char == o:
                         oc +=1
                         total +=1
-                        logging.info(total)
-                        logging.info('o counter is {0}'.format(oc))
+                       # logging.info('o={0}'.format(oc))
                 if key.char == p:
                         pc +=1
                         total +=1
-                        logging.info(total)
-                        logging.info('p counter is {0}'.format(pc))
+                       # logging.info('p={0}'.format(pc))
                 if key.char == a:
                         ac +=1
                         total +=1
-                        logging.info(total)
-                        logging.info('a counter is {0}'.format(ac))
+                        #logging.info('a={0}'.format(ac))
                 if key.char == s:
                         sc +=1
                         total +=1
-                        logging.info(total)
-                        logging.info('s counter is {0}'.format(sc))
+                       # logging.info('s={0}'.format(sc))
                 if key.char == d:
                         dc +=1
                         total +=1
-                        logging.info(total)
-                        logging.info('d counter is {0}'.format(dc))
+                       # logging.info('d={0}'.format(dc))
                 if key.char == f:
                         fc +=1
                         total +=1
-                        logging.info(total)
-                        logging.info('f counter is {0}'.format(fc))
+                       # logging.info('f={0}'.format(fc))
                 if key.char == g:
                         gc +=1
                         total +=1
-                        logging.info(total)
-                        logging.info('g counter is {0}'.format(gc))
+                       # logging.info('g={0}'.format(gc))
                 if key.char == h:
                         hc +=1
                         total +=1
-                        logging.info(total)
-                        logging.info('h counter is {0}'.format(hc))
+                       # logging.info('h={0}'.format(hc))
                 if key.char == j:
                         jc +=1
                         total +=1
-                        logging.info(total)
-                        logging.info('j counter is {0}'.format(jc))
+                       # logging.info('j={0}'.format(jc))
                 if key.char == k:
                         kc +=1
                         total +=1
-                        logging.info(total)
-                        logging.info('k counter is {0}'.format(kc))
+                       # logging.info('k={0}'.format(kc))
                 if key.char == l:
                         lc +=1
                         total +=1
-                        logging.info(total)
-                        logging.info('l counter is {0}'.format(lc))
+                       # logging.info('l={0}'.format(lc))
                 if key.char == z:
                         zc +=1
                         total +=1
-                        logging.info(total)
-                        logging.info('z counter is{0}'.format(zc))
+                       # logging.info('z={0}'.format(zc))
                 if key.char == x:
                         xc +=1
                         total +=1
-                        logging.info(total)
-                        logging.info('x counter is {0}'.format(xc))
+                       # logging.info('x={0}'.format(xc))
                 if key.char == c:
                         cc +=1
                         total +=1
-                        logging.info(total)
-                        logging.info('c counter is {0}'.format(cc))
+                        #logging.info('c={0}'.format(cc))
                 if key.char == v:
                         vc +=1
                         total +=1
-                        logging.info(total)
-                        logging.info('v counter is {0}'.format(vc))
+                        #logging.info('v={0}'.format(vc))
                 if key.char == b:
                         bc += 1
                         total +=1
-                        logging.info(total)
-                        logging.info('b counter is{0}'.format(bc))
+                       # logging.info('b={0}'.format(bc))
                 if key.char == n:
                         nc +=1
                         total +=1
-                        logging.info(total)
-                        logging.info('n counter is{0}'.format(nc))
+                        #logging.info('n={0}'.format(nc))
                 if key.char == m:
                         mc +=1
                         total +=1
                         # logging.info(total)
-                        logging.info('m counter is {0}'.format(mc))
+                      #  logging.info('m={0}'.format(mc))
         except AttributeError:
-                if Key.space:
-                        spacec +=1
-                        logging.info('space' , spacec)
+                if Key.ctrl_r:
+                        spacec = [qc,wc,ec,rc,tc,yc,uc,ic,oc,pc,ac,sc,dc,fc,gc,hc,jc,kc,lc,zc,xc,cc,vc,bc,nc,mc]
+                        # logging.info('spacec={0}'.format(spacec[1]))
+                        logging.info('q={0}'.format(spacec[0]))
+                        logging.info('w={0}'.format(spacec[1]))
+                        logging.info('e={0}'.format(spacec[2]))
+                        logging.info('r={0}'.format(spacec[3]))
+                        logging.info('t={0}'.format(spacec[4]))
+                        logging.info('y={0}'.format(spacec[5]))
+                        logging.info('u={0}'.format(spacec[6]))
+                        logging.info('i={0}'.format(spacec[7]))
+                        logging.info('o={0}'.format(spacec[8]))
+                        logging.info('p={0}'.format(spacec[9]))
+                        logging.info('a={0}'.format(spacec[10]))
+                        logging.info('s={0}'.format(spacec[11]))
+                        logging.info('d={0}'.format(spacec[12]))
+                        logging.info('f={0}'.format(spacec[13]))
+                        logging.info('g={0}'.format(spacec[14]))
+                        logging.info('h={0}'.format(spacec[15]))
+                        logging.info('j={0}'.format(spacec[16]))
+                        logging.info('k={0}'.format(spacec[17]))
+                        logging.info('l={0}'.format(spacec[18]))
+                        logging.info('z={0}'.format(spacec[19]))
+                        logging.info('x={0}'.format(spacec[20]))
+                        logging.info('c={0}'.format(spacec[21]))
+                        logging.info('v={0}'.format(spacec[22]))
+                        logging.info('b={0}'.format(spacec[23]))
+                        logging.info('n={0}'.format(spacec[24]))
+                        logging.info('m={0}'.format(spacec[25]))
+        
+                # if Key.space:
+                #         spacec +=1
+                #         logging.info('space' , spacec)
                 logging.info('special key {0} pressed'.format(
                 key))
 
 
 with Listener( on_press=on_press) as listener:
     listener.join() 
+
