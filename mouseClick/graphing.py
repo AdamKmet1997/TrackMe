@@ -67,7 +67,7 @@ x = np.arange(20)
 money = [m,w,e,r,t,y,u,i,o,p,a,s,d,f,g,h,j,b,l,c]
 
 
-def millions(x, pos):
+def dispaly_my_graph(x, pos):
     'The two args are the value and tick position'
     return '%1f' % (x * 5)
 
