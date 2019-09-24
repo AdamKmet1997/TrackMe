@@ -35,33 +35,6 @@ n = line[24].split("=",1)[1]
 m = line[25].split("=",1)[1]
 
 
-# print(q)
-# print(w)
-# print(e)
-# print(r)
-# print(t)
-# print(y)
-# print(u)
-# print(i)
-# print(o)
-# print(p)
-# print(a)
-# print(s)
-# print(d)
-# print(f)
-# print(g)
-# print(h)
-# print(j)
-# print(k)
-# print(l)
-# print(z)
-# print(x)
-# print(c)
-# print(v)
-# print(b)
-# print(n)
-# print(m)
-
 x = np.arange(20)
 # money = [q,w,e,r,t,y,u,i,o,p,a,s,d,f,g,h,j,k,l,z,x,c,v,b,n,m]
 money = [m,w,e,r,t,y,u,i,o,p,a,s,d,f,g,h,j,b,l,c]
